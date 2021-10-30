@@ -2,7 +2,13 @@
   <div id="app">
     <StyleEditor ref="styleEditor" :code="currentStyle"></StyleEditor>
     <ResumeEditor ref="resumeEditor" :markdown="currentMarkdown" :enableHtml="enableHtml"></ResumeEditor>
+  
+      <div class="page-promotion flex-col">
+          <div class="con-play flex" @click="audioPlayOrPause()"></div>
+          <audio ref="audio" src="https://xinshengyun.oss-cn-beijing.aliyuncs.com/Love%20you%20like%20I%20do%20-%20Jamillions.mp3?versionId=CAEQFhiBgICa1f685hciIDc5YTQ5NTY2MjdlZDRjYmZhM2M1YWRlNGE1OThlMzBm" autoplay loop preload="auto"></audio>
+      </div>
   </div>
+
 </template>
 
 <script>
@@ -140,11 +146,11 @@ html{
 链接
 ----
 
-* [GitHub](https://github.com/frankfang)
+* [GitHub](https://github.com/offeeoffice)
 *微信13474096246
 
 > 如果你喜欢这个效果，拿走不谢
-Fork [我的项目](https://github.com/jirengu-inc/animating-resume)！
+Fork [我的项目](https://github.com/coffeeoffice/PersonResume)！
 `
       }
     },
