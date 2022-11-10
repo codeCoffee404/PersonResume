@@ -2,6 +2,10 @@
   <div id="app">
     <StyleEditor ref="styleEditor" :code="currentStyle"></StyleEditor>
     <ResumeEditor ref="resumeEditor" :markdown="currentMarkdown" :enableHtml="enableHtml"></ResumeEditor>
+    <div class="page-promotion flex-col">
+          <div class="con-play flex" @click="audioPlayOrPause()"></div>
+          <audio ref="audio" src="./assets/Love you like I do - Jamillions.mp3" autoplay loop preload="auto"></audio>
+    </div>
   </div>
 </template>
 
@@ -137,12 +141,12 @@ html{
 技能
 ----
 
-* 前端vue、react开发
-*微信小程序开发
-* Node.js 开发
-* PHP建站
+* 前端H5,CSS3开发
+*后端ssm框架
+* logback日志集成
+* Linux操作系统
 *springboot微服务
-
+*MySQL建表与优化
 工作经历
 ----
 
@@ -152,11 +156,11 @@ html{
 链接
 ----
 
-* [GitHub](https://github.com/frankfang)
+* [GitHub](https://github.com/coffeeoffice)
 *微信13474096246
 
 > 如果你喜欢这个效果，拿走不谢
-Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
+Fork [我的项目](https://github.com/coffeeoffice/PersonResume)，打造你自己的简历！
 
 `
       }

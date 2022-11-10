@@ -5,7 +5,7 @@
   
       <div class="page-promotion flex-col">
           <div class="con-play flex" @click="audioPlayOrPause()"></div>
-          <audio ref="audio" src="https://xinshengyun.oss-cn-beijing.aliyuncs.com/Love%20you%20like%20I%20do%20-%20Jamillions.mp3?versionId=CAEQFhiBgICa1f685hciIDc5YTQ5NTY2MjdlZDRjYmZhM2M1YWRlNGE1OThlMzBm" autoplay loop preload="auto"></audio>
+          <audio ref="audio" src="./assets/Love you like I do - Jamillions.mp3" autoplay loop preload="auto"></audio>
       </div>
   </div>
 
@@ -131,11 +131,12 @@ html{
 技能
 ----
 
-* 前端vue、react开发
-*微信小程序开发
-* Node.js 开发
-* PHP建站
+* 前端H5,CSS3开发
+*后端ssm框架
+* logback日志集成
+* Linux操作系统
 *springboot微服务
+*MySQL建表与优化
 
 工作经历
 ----
@@ -146,7 +147,7 @@ html{
 链接
 ----
 
-* [GitHub](https://github.com/offeeoffice)
+* [GitHub](https://github.com/coffeeoffice)
 *微信13474096246
 
 > 如果你喜欢这个效果，拿走不谢
