@@ -12,7 +12,7 @@ npm run dev
 ```
 
 ## 部署方法
-
+也可以采用Nginx
 
 1. 编辑 config/index.js，修改第 10 行的 assetsPublicPath，值为 `项目名/dist`。如果你没有修改项目名 animating-resume，则可跳过此步骤。
 
